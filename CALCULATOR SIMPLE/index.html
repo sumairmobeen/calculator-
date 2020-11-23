@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="main">
+
+        <h1>CALCULATOR</h1>
+    </div>
+
+    <div class="cal">
+        <div class="but1">
+
+            <h2 id="result"></h2>
+
+            <form action="#">
+                <input id="number1" type="number" placeholder="enter a number" required>
+                <input id="number2" type="number" placeholder="enter second number" required>
+
+                <button onclick="AB()">Add</button>
+            </form>
+
+
+
+            <script>
+
+
+
+                function AB() {
+
+                    let number1 = document.getElementById("number1").value
+                    let number2 = document.getElementById("number2").value
+
+                    number1 = parseInt(number1)
+                    number2 = parseInt(number2)
+
+                    console.log(number1 + number2);
+                }
+
+
+            </script>
+        </div>
+
+        <div class="but2">
+
+
+            <form action="#">
+                <input id="number3" type="number" placeholder="enter a number" required>
+                <input id="number4" type="number" placeholder="enter second number" required>
+
+                <button onclick="CE()">Substract</button>
+            </form>
+
+            <script>
+
+
+                function CE() {
+
+                    let number3 = document.getElementById("number3").value
+                    let number4 = document.getElementById("number4").value
+
+                    number1 = parseInt(number3)
+                    number2 = parseInt(number4)
+
+                    console.log(number3 - number4);
+                }
+
+
+            </script>
+
+        </div>
+
+
+
+
+        <div class="but3">
+            <form action="#">
+                <input id="number7" type="number" placeholder="enter a number" required>
+                <input id="number8" type="number" placeholder="enter second number" required>
+
+                <button onclick="DE()">Divide</button>
+            </form>
+
+            <script>
+
+
+                function DE() {
+
+                    let number7 = document.getElementById("number7").value
+                    let number8 = document.getElementById("number8").value
+
+                    number1 = parseInt(number7)
+                    number2 = parseInt(number8)
+
+                    console.log(number7 / number8);
+                }
+
+
+            </script>
+        </div>
+
+
+        <div class="but4">
+            <form action="#">
+                <input id="number5" type="number" placeholder="enter a number" required>
+                <input id="number6" type="number" placeholder="enter second number" required>
+
+                <button onclick="FE()">Multiply</button>
+            </form>
+
+            <script>
+
+
+                function FE() {
+
+                    let number5 = document.getElementById("number5").value
+                    let number6 = document.getElementById("number6").value
+
+                    number5 = parseInt(number5)
+                    number6 = parseInt(number6)
+
+                    console.log(number5 * number6);
+                }
+
+
+
+            </script>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

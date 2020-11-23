@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+
+    font-size: 48px;
+    color: deepskyblue;
+    text-align: center;
+}
+.cal{
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+.but1  {
+    padding: 10px;
+    background-color: rgb(67, 166, 247);
+    border: rgb(255, 0, 0) solid 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.but2
+{
+
+    padding: 10px;
+    background-color: rgb(92, 169, 205);
+    border: lawngreen solid 2px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.but3{
+    padding: 10px;
+    background-color: rgb(111, 181, 202);
+    border: rgb(252, 0, 0) solid 2px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+.but4{
+
+    padding: 10px;
+    background-color: rgb(109, 161, 204);
+    border: lawngreen solid 2px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2{
+    color: thistle;
+}
